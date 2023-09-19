@@ -47,3 +47,49 @@ h4{
     display: inline-block;
     width: 311px;
 }
+#about-compamy{
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Roboto;
+    color: #676767;
+    text-align: left;
+}
+#logo-head{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Roboto;
+    color: #4a4a4a;
+}
+#logo-loram{
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    /* line-height: 24px; */
+    font-family: Lexend;
+    display: inline-block;
+    /* width: 311px; */
+    color: #646464;
+}
+#contact-btn{
+
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Lexend;
+    color: #1b808e;
+
+
+    border-radius: 8px;
+    box-shadow: 4px 8px 18px rgba(0, 0, 0, 0.15);
+    border: 1px solid #1b808e;
+    box-sizing: border-box;
+    width: 194px;
+    height: 32px;
+}
+#footer{
+    background-image: url("images/last-back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
