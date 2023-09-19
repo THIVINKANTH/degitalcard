@@ -1,3 +1,11 @@
+#head-back{
+    background-image: url("images/last-back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+   height: 100%;
+    overflow: hidden;
+}
 h4{
     font-size: 22px;
     letter-spacing: 0.01em;
@@ -86,10 +94,53 @@ h4{
     width: 194px;
     height: 32px;
 }
+#photo{
+    border-radius: 4px;
+    object-fit: cover;
+    
+}
 #footer{
     background-image: url("images/last-back.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     overflow: hidden;
+}
+.form-label{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Roboto;
+    color: #000;
+    margin-top: 5%;
+}
+.form-control
+{
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 2px 8px 18px rgba(0, 0, 0, 0.1);
+    border: 0.6px solid rgba(0, 0, 0, 0.79);
+    box-sizing: border-box;
+    width: 283px;
+    height: 35.6px;
+    overflow: hidden;
+}
+#btn-form{
+
+
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+    margin-top: 7%;
+    margin-bottom: 20%;
+    
+
+    border-radius: 8px;
+    background-color: #1b808e;
+    width: 116px;
+    height: 36px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #fff;
+    font-family: Lexend;
 }

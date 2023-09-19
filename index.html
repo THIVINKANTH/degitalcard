@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="head-back">
             <div class="row justify-content-center">
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <img src="images/ceo.png" alt="ceo" id="ceo">
@@ -92,21 +92,21 @@
             </div>
             <div class="row justify-content-center mt-2 text-center">
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 d-flex">
-                    <img src="images/row1-1.png" alt="card1" style="width: 145px;height: 129px;">
-                    <img src="images/row1-2.png" alt="2" style="width: 173px;height: 129px;">
+                    <img src="images/row1-1.png" alt="card1" style="width: 145px;height: 129px;" id="photo">
+                    <img src="images/row1-2.png" alt="card2" style="width: 173px;height: 129px;" id="photo">
                 </div>
             </div>
             <div class="row justify-content-center text-center">
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 d-flex">
-                    <img src="images/row2-1.png" alt="card1" style="width: 200px;height: 115px;">
-                    <img src="images/row2-2.png" alt="2" style="width: 118px;height: 115px;">
+                    <img src="images/row2-1.png" alt="card3" style="width: 200px;height: 115px;" id="photo">
+                    <img src="images/row2-2.png" alt="card4" style="width: 118px;height: 115px;" id="photo">
                 </div>
             </div>
-            <div class="row justify-content-center text-center ">
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 d-flex">
-                    <img src="images/Rectangle-2021.png" alt="card1" style="width: 108px;height: 200px;">
-                    <img src="images/Rectangle-2020.png" alt="2" style="width: 98px;height: 200px;">
-                    <img src="images/Rectangle-2025.png" alt="2" style="width: 98px;height: 200px;">
+            <div class="row justify-content-center text-center">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 d-flex ">
+                    <img src="images/Rectangle-2021.png" alt="card5" style="width: 108px;height: 236px;" id="photo">
+                    <img src="images/Rectangle-2020.png" alt="card6" style="width: 98px;height: 236px;" id="photo">
+                    <img src="images/Rectangle-2025.png" alt="card7" style="width: 98px;height: 236px;" id="photo">
                 </div>
             </div>
         </div>
@@ -114,14 +114,43 @@
     <section>
        <div class="container">
         <div class="row container justify-content-center " id="footer">
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" >
                 <p id="logo-head">Marketing Consent Form</p>
             </div>
             <form action="">
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                        <label for="name" class="" >Name</label>
-                        <input type="text" id="name">
+                        <label for="name" class="form-label" >Name</label>
+                        <input type="text" id="name" class="form-control">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <label for="email" class="form-label" >E mail</label>
+                        <input type="email" id="email" class="form-control">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <label for="contact" class="form-label" >Contact Num</label>
+                        <input type="tel" id="contact" class="form-control">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <label for="aname" class="form-label" >Agency Name</label>
+                        <input type="text" id="aname" class="form-control">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <label for="site" class="form-label" >Agency Website</label>
+                        <input type="text" id="site" class="form-control">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+                       <button type="submit" id="btn-form">Send request</button>
                     </div>
                 </div>
             </form>
