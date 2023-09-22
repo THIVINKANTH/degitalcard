@@ -1,10 +1,11 @@
-#head-back{
-    background-image: url("images/last-back.png");
-    background-position: center;
+#logo{
+    background-image: url("images/ceo-back.png");
+    background-position:center;
     background-repeat: no-repeat;
-    background-size: auto;
-   height: 100%;
+    background-size: cover;
     overflow: hidden;
+    width: 360px;
+    height: 281px;
 }
 h4{
     font-size: 22px;
@@ -94,9 +95,13 @@ h4{
     width: 194px;
     height: 32px;
 }
+#contact-btn:hover{
+    color: white;
+    background-color: #1B808E;
+}
 #photo{
     border-radius: 4px;
-    object-fit: cover;
+    object-fit: none;
     
 }
 #footer{
@@ -104,6 +109,7 @@ h4{
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
+    width: 360px;
     overflow: hidden;
 }
 .form-label{
@@ -120,7 +126,7 @@ h4{
     box-shadow: 2px 8px 18px rgba(0, 0, 0, 0.1);
     border: 0.6px solid rgba(0, 0, 0, 0.79);
     box-sizing: border-box;
-    width: 283px;
+    /* width: 283px; */
     height: 35.6px;
     overflow: hidden;
 }
